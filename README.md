@@ -527,8 +527,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 
 ### 经济指数-地区生产总值季度增长趋势
 ```
-TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesQuarterGDPIndex
 ```
 时间为最近3年，每**季度**全国所有省级区域指标对应值
 
@@ -656,7 +655,6 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 ### 创新指数-各省专利数量构成
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesInventionComposeIndex
 ```
 最近5年数据， 包括三个部分  发明专利有效量、实用新专利有效量、外观设计有效量 这三个维度的各省数据
@@ -723,7 +721,6 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesInventionComp
 
 ### 创新指数-各省作品著作权
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/copyrightIndex
 ```
 最近5年 全国所有省级区域的对应指标值
@@ -758,7 +755,6 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/copyrightIndex
 
 ### 产业指数-各省第一产业增加值
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosFirstIndustryAddedIndex
 ```
 最近5年 全国所有省级区域的对应指标值
@@ -791,14 +787,12 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosFirstIndustryAdded
 
 ### 产业指数-各省第二产业增加值
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosSecondIndustryAddedIndex
 ```
 同上 第一产业 返回数据格式
 
 ### 产业指数-各省第三产业增加值
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosThirdIndustryAddedIndex
 ```
 同上 第一产业 返回数据格式
@@ -807,7 +801,6 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosThirdIndustryAdded
 
 ### 产业指数-各省各个产业增加值
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosAllIndustryAddedIndex
 ```
 最近5年 全国所有省级区域的第一，第二，第三产业  对应指标值
@@ -1242,7 +1235,6 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 
 ### 创业指数-近年各省成立企业数量分布
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosYearEntEtablishIndex
 ```
 最近5年 全国所有省级区域的对应指标值
@@ -1325,7 +1317,6 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 
 ### 创业指数-地区成立企业数量行业分布
 ```
-TODO
 http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosIndusYearEntEtabIndex
 ```
 最近3年各个省级地区 **各个行业**的企业数量
