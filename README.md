@@ -265,7 +265,10 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/recruitIndex
 
 ### 招聘指数-主要行业-时间
 ```
-TODO 当前未有历史数据
+ TODO 当前未有历史数据
+
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+>>>>>>> e807e63eee1616029b4904ff6b914b8ef0fa53a0
 ```
 获取最近10个月份的主要行业(目前固定7个) 数据
 
@@ -421,7 +424,10 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 ```
 
 ### 经济指数 -全国重点城市年末总人口
-
+```
+TODO
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+```
 最近5年 全国所有重点城市域的对应指标值
 
 ```JSON
@@ -471,6 +477,10 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 
 ### 经济指数 -全国重点城市在岗职工平均工资
+```
+TODO
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+```
 
 最近5年 全国所有重点城市域的对应指标值
 
@@ -518,9 +528,15 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 ```
 
+
 ### 经济指数-地区生产总值季度增长趋势(季度)
 
-时间为最近3年，每**季度**全国所有省级区域指标对应值
+### 
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesQuarterGDPIndex
+```
+>>>>>>> e807e63eee1616029b4904ff6b914b8ef0fa53a0
+>>>>>>> 时间为最近3年，每**季度**全国所有省级区域指标对应值
 
 ```
 {
@@ -558,10 +574,13 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 
 
+
 ### 经济指数-各省法人单位数增长趋势（年度）
 
-  同上
-
+### 
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/corporationCompIndex
+```
 时间为最近5年，全国所有省级区域指标对应值 
 
 ```
@@ -600,8 +619,10 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 ### 经济指数-各省企业法人数增长趋势（年度）
 
-  同上
-
+### 
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompIndex
+```
 时间为最近5年，全国所有省级区域指标对应值 
 
 ```
@@ -641,7 +662,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 ## 创新指数
 
 ### 创新指数-各省专利数量构成
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesInventionComposeIndex
+```
 最近5年数据， 包括三个部分  发明专利有效量、实用新专利有效量、外观设计有效量 这三个维度的各省数据
 
 ```json
@@ -705,7 +728,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 ```
 
 ### 创新指数-各省作品著作权
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/copyrightIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```
@@ -737,7 +762,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 ## 产业指数
 
 ### 产业指数-各省第一产业增加值
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosFirstIndustryAddedIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```
@@ -767,17 +794,23 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 
 ### 产业指数-各省第二产业增加值
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosSecondIndustryAddedIndex
+```
 同上 第一产业 返回数据格式
 
 ### 产业指数-各省第三产业增加值
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosThirdIndustryAddedIndex
+```
 同上 第一产业 返回数据格式
 
 
 
 ### 产业指数-各省各个产业增加值
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosAllIndustryAddedIndex
+```
 最近5年 全国所有省级区域的第一，第二，第三产业  对应指标值
 
 ```json
@@ -843,7 +876,10 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 
 
 ### 产业指数-全国重点城市-第一产业增加值
-
+```
+TODO
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+```
 关于全国重点城市的指标，由于目前数据库中没有重点城市的经纬度信息，在此提供各重点城市经纬度信息
 
 ```json
@@ -1090,7 +1126,10 @@ var geoCoordMap = {
 
 
 ### 产业指数-全国重点城市-第二产业增加值
-
+```
+TODO
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+```
 同上「产业指数-全国重点城市-第一产业」接口
 
 此接口需要返回 具体该重点城市的名称，经纬度，以及对应的指标的值，具体格式如下：提供最近3年，全国各重点城市是该指标的值，如果无该重点城市的对应指标值则设置为0
@@ -1141,7 +1180,10 @@ var geoCoordMap = {
 
 
 ### 产业指数-全国重点城市-第三产业增加值
-
+```
+TODO
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+```
 同上「产业指数-全国重点城市-第二产业」接口
 
 此接口需要返回 具体该重点城市的名称，经纬度，以及对应的指标的值，具体格式如下：提供最近3年，全国各重点城市是该指标的值，如果无该重点城市的对应指标值则设置为0
@@ -1200,7 +1242,9 @@ var geoCoordMap = {
 ## 创业指数
 
 ### 创业指数-近年各省成立企业数量分布
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosYearEntEtablishIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```json
@@ -1228,7 +1272,10 @@ var geoCoordMap = {
 ```
 
 ### 创业指数-近年重点城市成立企业数量分布
-
+```
+TODO
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+```
 同上「产业指数-全国重点城市-年末总人口」接口
 
 此接口需要返回 具体该重点城市的名称，经纬度，以及对应的指标的值，具体格式如下：提供最近3年，全国各重点城市是该指标的值，如果无该重点城市的对应指标值则设置为0
@@ -1277,7 +1324,9 @@ var geoCoordMap = {
 ```
 
 ### 创业指数-地区成立企业数量行业分布
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosIndusYearEntEtabIndex
+```
 最近3年各个省级地区 **各个行业**的企业数量
 
 ```json
