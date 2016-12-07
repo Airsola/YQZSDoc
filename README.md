@@ -1,4 +1,4 @@
-# 园区指数接口文档 233
+# 园区指数接口文档 
 
  utf-8 编码， get 请求 ，返回数据json格式
 
@@ -355,7 +355,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesYearGDPIndex
 
 
 ### 经济指数-法人单位数
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/corporationCompIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```
@@ -386,7 +388,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesYearGDPIndex
 
 
 ### 经济指数-企业法人单位数
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```
