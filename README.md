@@ -264,8 +264,11 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/recruitIndex
 ```
 
 ### 招聘指数-主要行业-时间
-
+```
+TODO 当前未有历史数据
+```
 获取最近10个月份的主要行业(目前固定7个) 数据
+
 
 ```json
 {
@@ -355,7 +358,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesYearGDPIndex
 
 
 ### 经济指数-法人单位数
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/corporationCompIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```
@@ -386,7 +391,9 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/provincesYearGDPIndex
 
 
 ### 经济指数-企业法人单位数
-
+```
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompIndex
+```
 最近5年 全国所有省级区域的对应指标值
 
 ```
