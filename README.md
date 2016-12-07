@@ -570,8 +570,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 
 ### 经济指数-各省法人单位数增长趋势
 ```
-TODOING
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/corporationCompIndex
 ```
   同上
 
@@ -613,8 +612,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 
 ### 经济指数-各省企业法人数增长趋势
 ```
-TODOING
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompIndex
 ```
   同上
 
