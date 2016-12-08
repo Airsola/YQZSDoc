@@ -423,7 +423,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/enterpriseCorpCompInde
 ### 经济指数 -全国重点城市年末总人口
 ```
 TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/yearEndTolPopulateIndex
 ```
 最近5年 全国所有重点城市域的对应指标值
 
@@ -475,8 +475,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 
 ### 经济指数 -全国重点城市在岗职工平均工资
 ```
-TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/averageWageOfWorkerIndex
 ```
 
 最近5年 全国所有重点城市域的对应指标值
@@ -870,7 +869,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosAllIndustryAddedIn
 ### 产业指数-全国重点城市-第一产业增加值
 ```
 TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/impCityFirInduAddedIndex
 ```
 关于全国重点城市的指标，由于目前数据库中没有重点城市的经纬度信息，在此提供各重点城市经纬度信息
 
@@ -1120,7 +1119,7 @@ var geoCoordMap = {
 ### 产业指数-全国重点城市-第二产业增加值
 ```
 TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/impCitySecInduAddedIndex
 ```
 同上「产业指数-全国重点城市-第一产业」接口
 
@@ -1174,7 +1173,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/
 ### 产业指数-全国重点城市-第三产业增加值
 ```
 TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/impCityThiInduAddedIndex
 ```
 同上「产业指数-全国重点城市-第二产业」接口
 
@@ -1266,7 +1265,7 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosYearEntEtablishInd
 ### 创业指数-近年重点城市成立企业数量分布
 ```
 TODO
-http://172.16.131.235:8080/spider-web/riviews/gardenindex/
+http://172.16.131.235:8080/spider-web/riviews/gardenindex/citysYearEntEtabIndex
 ```
 同上「产业指数-全国重点城市-年末总人口」接口
 
