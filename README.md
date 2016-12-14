@@ -757,6 +757,224 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/copyrightIndex
 
 
 
+新增 2016-12-14
+
+### 创业指数-重点城市园区无形资产数量
+
+最近3年各个重点城市园区数无形资产总数
+
+```json
+{
+  "KeyCityPackAndEnterpriseNum": {
+    "timeline": {
+      "2016": [
+        {
+          "name": "厦门",
+          "value": [
+            111.88, //经度
+            31, //维度
+             800 // 园区数无形资产总数
+          ]
+        },
+        {
+          "name": "上海",
+          "value": [
+            111.82,
+            30.11,
+             37
+          ]
+        },
+        {
+          "name": "杭州",
+          "value": [
+            111.83,
+            32.32,
+             20
+          ]
+        }
+      ],
+      "2015": [
+        {
+          "name": "厦门",
+          "value": [
+            111.88,
+            31,
+             8
+          ]
+        },
+        {
+          "name": "上海",
+          "value": [
+            111.82,
+            30.11,
+             37
+          ]
+        },
+        {
+          "name": "杭州",
+          "value": [
+            111.83,
+            32.32,
+             20
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+
+
+
+### 创新指数-园区无形资产数量分布排名（省级）
+
+ 最近3年,以省为粒度。统计省内各个园区的无形资产情况，按照无形资产总数量排名取各省园区Top30
+
+无形资产主要包括以下六项目
+
+> 发明专利有效量 003001001   InventPatent
+>
+> 实用新型专利有效量 003001002  NewTypePatent
+>
+> 外观设计专利有效量 003001003 AppearanceDesignPatent
+>
+> 作品著作权数量：'003001004'  	Copyright
+>
+> 商标有效量：'003001005'   Trademark
+>
+> 软件著作权数量：'003001006'  Software
+
+```json
+{
+  "ProvincePackInvisibleAssetsTop": {
+    "timeline": {
+      "2016": {
+        "福建": {
+          "(厦门)湖里高新技术开发区": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 3423
+          },
+          "(福州)闽侯大学城软件园": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          },
+          "(厦门)软件园二期": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          }
+        },
+        "浙江": {
+          "(杭州)西湖一区": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          },
+          "(温州)温岭一区": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          },
+          "(乌镇)乌镇一区": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          }
+        }
+      },
+      "2015": {
+        "福建": {
+          "(厦门)湖里高新技术开发区": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          },
+          "(福州)闽侯大学城软件园": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          },
+          "(厦门)软件园二期": {
+            "InventPatent": 123,
+            "NewTypePatent": 12,
+            "AppearanceDesignPatent": 123,
+            "Copyright": 12,
+            "Trademark": 331,
+            "Software": 234,
+            "Total": 333333
+          }
+        },
+        "浙江": {
+          "(杭州)西湖一区": {
+            "InventPatent": "123",
+            "NewTypePatent": "12",
+            "AppearanceDesignPatent": "123",
+            "Copyright": "12",
+            "Trademark": "331",
+            "Software": "234",
+            "Total": "44444"
+          },
+          "(温州)温岭一区": {
+            "InventPatent": "123",
+            "NewTypePatent": "12",
+            "AppearanceDesignPatent": "123",
+            "Copyright": "12",
+            "Trademark": "331",
+            "Software": "234",
+            "Total": "44444"
+          },
+          "(乌镇)乌镇一区": {
+            "InventPatent": "123",
+            "NewTypePatent": "12",
+            "AppearanceDesignPatent": "123",
+            "Copyright": "12",
+            "Trademark": "331",
+            "Software": "234",
+            "Total": "44444"
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+
+
 ## 产业指数
 
 ### 产业指数-各省第一产业增加值
@@ -1517,9 +1735,11 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosIndusYearEntEtabIn
 }
 ```
 
+
+
 ### 创业指数-各省园区入驻企业数排名
 
-最近3年，已省为粒度，对省内园区按照园区的企业数进行排名
+最近3年，以省为粒度，对省内园区按照园区的企业数进行排名
 
 ```json
 {
@@ -1552,5 +1772,8 @@ http://172.16.131.235:8080/spider-web/riviews/gardenindex/prosIndusYearEntEtabIn
   }
 }
 ```
+
+
+
 
 
