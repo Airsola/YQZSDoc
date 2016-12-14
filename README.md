@@ -30,7 +30,6 @@
           "宁夏": "ningxia",
           "青海": "qinghai",
           "山东": "shandong",
-          "伤害": "shanghai",
           "山西": "shanxi1",
           "陕西": "shanxi",
           "四川": "sichuan",
